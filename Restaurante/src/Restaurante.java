@@ -9,6 +9,7 @@ public class Restaurante {
         this.direccion = direccion;
         this.NIT = NIT;
         this.telefono = telefono;
+
     }
 
     public String getNombreComercial() {

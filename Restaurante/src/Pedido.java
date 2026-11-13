@@ -4,6 +4,7 @@ public abstract class Pedido {
     public String cliente;
     ESTADOPEDIDO estadopedido;
 
+
     public Pedido(int codigo, String fecha, String cliente, ESTADOPEDIDO estadopedido) {
         this.codigo = codigo;
         this.fecha = fecha;

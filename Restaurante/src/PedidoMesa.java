@@ -4,6 +4,7 @@ public class PedidoMesa extends Pedido{
     public PedidoMesa(int codigo, String fecha, String cliente, ESTADOPEDIDO estadopedido, int numeroMesa) {
         super(codigo, fecha, cliente, estadopedido);
         this.numeroMesa = numeroMesa;
+
     }
 
     public int getNumeroMesa() {
