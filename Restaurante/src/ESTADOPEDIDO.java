@@ -1,0 +1,6 @@
+public enum ESTADOPEDIDO {
+    PENDIENTE,
+    CONFIRMADO,
+    ENTREGADO,
+    CANCELADO
+}
