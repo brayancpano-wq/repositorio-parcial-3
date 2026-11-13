@@ -1,11 +1,14 @@
 public abstract class Producto {
     public int codigo;
-    public int nombre;
+    public String nombre;
     public String descripcion;
-    public int precioBase;
+    public double precioBase;
     public int tiempoPreparacion;
 
-    public Producto(int codigo, String descripcion, int nombre, int precioBase, int tiempoPreparacion) {
+    public abstract double calcularPrecioVenta();
+    public abstract boolean verificarCondicionesCalidad();
+
+    public Producto(int codigo, String descripcion, String nombre, double precioBase, int tiempoPreparacion) {
         this.codigo = codigo;
         this.descripcion = descripcion;
         this.nombre = nombre;
@@ -22,11 +25,11 @@ public abstract class Producto {
         this.codigo = codigo;
     }
 
-    public int getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(int nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
@@ -38,7 +41,7 @@ public abstract class Producto {
         this.descripcion = descripcion;
     }
 
-    public int getPrecioBase() {
+    public double getPrecioBase() {
         return precioBase;
     }
 

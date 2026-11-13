@@ -1,5 +1,5 @@
 
-public enum ESTADOPEDIDO {
+public enum EstadoPedido {
     PENDIENTE,
     CONFIRMADO,
     ENTREGADO,
