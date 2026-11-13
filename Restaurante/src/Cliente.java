@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Cliente {
     public String nombre;
     public String documento;
@@ -5,6 +8,7 @@ public class Cliente {
     public String correo;
     public String direccion;
 
+    private List<Pedido> listPedidoCliente;
 
     public Cliente(String nombre, String documento, int telefono, String correo, String direccion) {
         this.nombre = nombre;
@@ -12,6 +16,17 @@ public class Cliente {
         this.telefono = telefono;
         this.correo = correo;
         this.direccion = direccion;
+        this.listPedidoCliente = new ArrayList<>();
+
+    }
+
+    public List<Pedido> consultarHistorialCompras() {
+        return this.listPedidoCliente;
+    }
+
+
+    public void agregarPedido(Pedido pedido) {
+        this.listPedidoCliente.add(pedido);
     }
 
     public String getNombre() {

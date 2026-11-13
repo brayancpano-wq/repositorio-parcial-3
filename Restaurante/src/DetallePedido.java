@@ -1,6 +1,3 @@
-public record DetallePedido(
-        Producto producto,
-        int cantidad
-                            ) {
-
+public record DetallePedido(Producto producto, int cantidad)
+{
 }

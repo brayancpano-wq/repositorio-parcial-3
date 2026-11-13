@@ -1,5 +1,5 @@
 
-public enum TIPOPREPARACION {
+public enum TipoPreparacion {
     ASADO,
     FRITO,
     HORNEADO,
