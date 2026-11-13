@@ -5,6 +5,7 @@ public class Cliente {
     public String correo;
     public String direccion;
 
+
     public Cliente(String nombre, String documento, int telefono, String correo, String direccion) {
         this.nombre = nombre;
         this.documento = documento;

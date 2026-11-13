@@ -8,6 +8,7 @@ public class Postre extends Producto{
         this.pesoGramos = pesoGramos;
         this.tempAlmacenamiento = tempAlmacenamiento;
         this.determinarRefrigeracion = determinarRefrigeracion;
+
     }
 
     public int getPesoGramos() {

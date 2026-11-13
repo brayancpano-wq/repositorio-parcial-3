@@ -11,6 +11,7 @@ public abstract class Producto {
         this.nombre = nombre;
         this.precioBase = precioBase;
         this.tiempoPreparacion = tiempoPreparacion;
+
     }
 
     public int getCodigo() {

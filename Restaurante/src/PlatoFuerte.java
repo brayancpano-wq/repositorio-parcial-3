@@ -8,6 +8,7 @@ public class PlatoFuerte extends Producto{
         this.controlCoccion = controlCoccion;
     }
 
+
     public int getPesoGramos() {
         return pesoGramos;
     }
